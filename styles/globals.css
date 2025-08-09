@@ -85,17 +85,20 @@
 }
 
 :root {
-  --clr-white: #fffdf0;
-  --clr-black: #18191a;
-  --clr-blue-dark: #0a0957;
-  --clr-blue-light: #00ccfc;
-  --clr-blue-default: #0095ec;
-  --clr-blue-lightest: #50ddfe;
-  --clr-blue-darkest: #001c42;
-  --clr-green-dark: #00392e;
-  --clr-green-light: #6aa924;
-  --clr-yellow-dark: #f29f05;
-  --clr-yellow-light: #f2cb05;
+  --clr-blue-light: #C6D3DE;
+  --clr-blue: #6EA7BD;
+  --clr-blue-dark: #224296;
+  --clr-lilac: #8F78B0;
+  --clr-pink: #CEA1A2;
+  --clr-orange: #C17153;
+  --clr-olive: #7E8C5E;
+  --clr-green: #009268;
+  --clr-yellow: #C5B743;
+  --clr-lime: #E8ECA8;
+  --clr-cream: #E9E2CB;
+  --clr-main-txt: #231F20;
+  
+
 }
 * {
   /* font-family: "Open Sans"; */
