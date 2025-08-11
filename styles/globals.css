@@ -5,122 +5,71 @@
 @import "./markdown.css";
 
 @font-face {
-  font-family: "Epilogue";
+  font-family: "PicNic";
   src:
-    url("/Epilogue/Epilogue-Bold.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-Bold.woff") format("woff");
-  font-weight: bold;
+    url("/Fonts/PicNic..woff2") format("woff2"),
+    url("/Fonts/PicNic.woff") format("woff");
+    font-weight: 500;
   font-style: normal;
   font-display: swap;
+
 }
 
 @font-face {
-  font-family: "Epilogue";
+  font-family: "RubikMonoOne";
   src:
-    url("/Epilogue/Epilogue-Light.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Epilogue";
-  src:
-    url("/Epilogue/Epilogue-ExtraLight.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Epilogue";
-  src:
-    url("/Epilogue/Epilogue-Medium.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-Medium.woff") format("woff");
+    url("/Fonts/RubikMonoOne-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Epilogue";
+  font-family: "UfesSans";
   src:
-    url("/Epilogue/Epilogue-Regular.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-Regular.woff") format("woff");
-  font-weight: normal;
+    url("/Fonts/UfesSans-Regular.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Epilogue";
-  src:
-    url("/Epilogue/Epilogue-SemiBold.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Epilogue";
-  src:
-    url("/Epilogue/Epilogue-Thin.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Epilogue";
-  src:
-    url("/Epilogue/Epilogue-Italic.woff2") format("woff2"),
-    url("/Epilogue/Epilogue-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
   font-display: swap;
 }
 
 :root {
-  --clr-blue-light: #C6D3DE;
-  --clr-blue: #6EA7BD;
-  --clr-blue-dark: #224296;
-  --clr-lilac: #8F78B0;
-  --clr-pink: #CEA1A2;
-  --clr-orange: #C17153;
-  --clr-olive: #7E8C5E;
-  --clr-green: #009268;
-  --clr-yellow: #C5B743;
-  --clr-lime: #E8ECA8;
-  --clr-cream: #E9E2CB;
-  --clr-main-txt: #231F20;
+  --color-blue-light: #C6D3DE;
+  --color-blue: #6EA7BD;
+  --color-blue-dark: #224296;
+  --color-lilac: #8F78B0;
+  --color-pink: #CEA1A2;
+  --color-orange: #C17153;
+  --color-olive: #7E8C5E;
+  --color-green: #009268;
+  --color-yellow: #C5B743;
+  --color-lime: #E8ECA8;
+  --color-cream: #E9E2CB;
+  --color-main-txt: #231F20;
   
 
 }
 * {
   /* font-family: "Open Sans"; */
+  /* background-color: var(--color-lime); */
+
 }
 
 body {
   overflow-x: hidden;
-  color: var(--clr-black);
-  background-color: var(--clr-white);
+  color: var(--color-main-txt);
 }
 
 h2 {
   font-family: "Epilogue";
   font-size: large;
   font-weight: 700;
-  color: var(--clr-white);
 }
 
 .header-links {
   font-family: "Epilogue";
   font-size: small;
-  color: var(--clr-blue-dark);
+  color: var(--color-main-txt);
 }
 
 .gradient-circle {
@@ -186,3 +135,20 @@ h2 {
   background: inherit;
   border-radius: inherit;
 }
+
+.tempPage_menu_links {
+  color:var(--color-cream)
+
+}
+.tempPage_menu_links:hover {
+  cursor: pointer; 
+}
+#insta.tempPage_menu_links:hover > span, #past.tempPage_menu_links:hover > span  {
+  display: block;
+}
+
+.tempPage_menu_links span {
+  display: none;
+font-family: RubikMonoOne, Arial, Helvetica, sans-serif;
+  }
+
