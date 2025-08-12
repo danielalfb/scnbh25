@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
+
 import { InstagramLogo, TreasureChest } from "@phosphor-icons/react/ssr";
 
 export default function Home() {
@@ -58,6 +60,7 @@ export default function Home() {
           className="h-auto w-full absolute bottom-0 left-0"
         />
       </div>
+      <Footer />
     </>
   );
 }

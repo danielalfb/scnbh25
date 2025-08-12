@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeftIcon } from "@phosphor-icons/react";
 import { useRouter } from "next/router";
 import Button from "../../components/Button";
+import Footer from "../../components/Footer";
 
 export default function Anteriores() {
   const router = useRouter();
@@ -210,6 +211,7 @@ export default function Anteriores() {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 }
