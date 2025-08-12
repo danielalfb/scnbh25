@@ -57,17 +57,20 @@
 
 body {
   overflow-x: hidden;
+  font-family: "UfesSans";
+
   color: var(--color-main-txt);
 }
 
 h2 {
-  font-family: "Epilogue";
-  font-size: large;
+  font-family: RubikMonoOne, Arial, Helvetica, sans-serif;
+  color: var(--color-pink);
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .header-links {
-  font-family: "Epilogue";
+  font-family: "PicNic";
   font-size: small;
   color: var(--color-main-txt);
 }
@@ -145,7 +148,7 @@ h2 {
 }
 #insta.tempPage_menu_links:hover > span, #past.tempPage_menu_links:hover > span  {
   display: block;
-}
+transition: 0.3s;}
 
 .tempPage_menu_links span {
   display: none;

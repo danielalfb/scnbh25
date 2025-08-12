@@ -5,7 +5,7 @@ const Button = ({ children, type, onClick, classes }) => {
     return (
       <button
         onClick={onClick}
-        type='button'
+        type="button"
         className={`text-sm tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg transition-all duration-300 ease-out first:ml-0 hover:scale-105 cursor-pointer active:scale-100 link ${classes}`}
       >
         {children}
@@ -15,7 +15,7 @@ const Button = ({ children, type, onClick, classes }) => {
   return (
     <button
       onClick={onClick}
-      type='button'
+      type="button"
       className={`text-sm tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:scale-105 cursor-pointer active:scale-100  tablet:first:ml-0 ${classes} link`}
     >
       {children}

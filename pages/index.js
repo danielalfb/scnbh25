@@ -9,12 +9,17 @@ export default function Home() {
         <title>SCNBH25</title>
       </Head>
       <div
-        className="h-screen w-full flex justify-center items-center"
-        style={{ backgroundColor: "var(--color-pink)" }}
+        className="h-screen w-full flex justify-center items-start"
+        style={{ backgroundColor: "var(--color-blue)" }}
       >
         <div className="h-screen w-full absolute bg-[url(/texture.png)] bg-cover bg-center" />
-        <div className="h-screen w-full flex flex-col justify-center items-center gap-12 z-10">
-          <img src="/elemento_concha.png" className="h-auto w-24" />
+        <div className="h-screen w-full flex flex-col justify-start items-center gap-12 z-10 p-12">
+          <img
+            src="/images/logo.png"
+            className="h-auto"
+            style={{ width: "500px" }}
+          />
+
           <div
             className="text-8xl"
             style={{ color: "var(--color-blue-dark)", fontFamily: "PicNic" }}
@@ -43,15 +48,15 @@ export default function Home() {
               className="flex justify-center items-center gap-2 tempPage_menu_links"
               onClick={() => window.open("/anteriores", "_self").focus()}
             >
+              <TreasureChest size={24} weight="fill" />
               <span className="text-1xl">Edições anteriores</span>
             </div>
           </div>
-
-          {/* <img
-            src="/elemento_amarelo.png"
-            className="h-screen w-auto absolute "
-          /> */}
         </div>
+        <img
+          src="/elemento_ondas.png"
+          className="h-auto w-full absolute bottom-0 left-0"
+        />
       </div>
     </>
   );
